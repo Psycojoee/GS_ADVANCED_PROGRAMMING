@@ -98,7 +98,7 @@ function cadastrar(){
         msgError.innerHTML = ''
 
         setTimeout(()=>{
-            window.location.href = '.\index.html'   
+            window.location.href = 'https://psycojoee.github.io/GS_ADVANCED_PROGRAMMING/'   
         }, 3000)
         
 

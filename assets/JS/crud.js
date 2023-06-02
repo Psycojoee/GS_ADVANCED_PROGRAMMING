@@ -175,5 +175,5 @@ function exibirAnaliseConsumoPorCategoria() {
 }
 
 function sair (){
-  window.location.href = 'index.html'
+  window.location.href = 'https://psycojoee.github.io/GS_ADVANCED_PROGRAMMING/'
 }
