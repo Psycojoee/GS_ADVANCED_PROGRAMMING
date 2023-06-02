@@ -52,7 +52,7 @@ function entrar() {
     localStorage.setItem('token', token)
     localStorage.setItem('userLogado', JSON.stringify(userValid))
   
-    window.location.href = '/HTML/ficha.html';
+    window.location.href = 'https://psycojoee.github.io/GS_ADVANCED_PROGRAMMING/HTML/ficha.html';
   
   } else {
     usuario.setAttribute('style', 'border-color: red')
