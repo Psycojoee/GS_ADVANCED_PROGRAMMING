@@ -30,16 +30,17 @@ function entrar(){
 
     listaUser = JSON.parse(localStorage.getItem('listaUser'))
 
-    listaUser.forEach((item) => {
-        if(usuario.value == item.userCad && senha.value == item.senhaCad){
+    if (listaUser !== null) {
+        listaUser.forEach((item) => {
+          if(usuario.value == item.userCad && senha.value == item.senhaCad){
             userValid = {
-                nome: item.nomeCad,
-                user: item.userCad,
-                senha: item.senhaCad
-            }
-
-        }
-    })
+              nome: item.nomeCad,
+              user: item.userCad,
+              senha: item.senhaCad
+            };
+          }
+        });
+      }
 
     if(usuario.value == userValid.user && senha.value == userValid.senha){
         window.location.href = 'http://127.0.0.1:5500/HTML/ficha.html'
