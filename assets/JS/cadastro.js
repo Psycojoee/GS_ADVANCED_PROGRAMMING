@@ -52,7 +52,7 @@ function entrar() {
     localStorage.setItem('token', token)
     localStorage.setItem('userLogado', JSON.stringify(userValid))
   
-    window.location.href = '../index.html';
+    window.location.href = 'index.html';
   
   } else {
     usuario.setAttribute('style', 'border-color: red')
