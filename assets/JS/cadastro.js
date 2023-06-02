@@ -48,7 +48,7 @@ function entrar() {
   }
 
   if (usuario.value == userValid.user && senha.value == userValid.senha) {
-    window.location.href = 'index.html'
+    window.location.href = 'https://psycojoee.github.io/GS_ADVANCED_PROGRAMMING/'
 
     let token = Math.random().toString(16).substring(2) + Math.random().toString(16).substring(2)
     localStorage.setItem('token', token)
