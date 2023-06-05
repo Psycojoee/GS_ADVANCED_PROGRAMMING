@@ -32,7 +32,7 @@ function atualizar() {
   exibirAnaliseConsumoPorCategoria();
 }
 
-function cadastrar() {
+function cadastrar() { //Criando a função cadastrar
   const titulo = document.querySelector("#titulo").value;
   const descricao = document.querySelector("#descricao").value;
   const categoria = document.querySelector("#categoria").value;
@@ -51,7 +51,7 @@ function cadastrar() {
     ano,
     concluida: false,
   };
-
+//Validando as categorias que foram fornecidas
   if (!validar(tarefa.titulo, document.querySelector("#titulo"))) return;
   if (!validar(tarefa.descricao, document.querySelector("#descricao"))) return;
   if (!validar(tarefa.gasto, document.querySelector("#gasto"))) return;
@@ -113,7 +113,7 @@ function createCard(tarefa) {
     style: "currency",
     currency: "BRL",
   });
-
+//templete de como vai ser criado o CARD que o usuário inserir
   return `
     <div class="col-lg-3 col-md-6 col-12">
       <div class="card">

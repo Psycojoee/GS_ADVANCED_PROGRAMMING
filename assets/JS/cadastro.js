@@ -10,7 +10,7 @@ btn.addEventListener('click', () => {
   }
 })
 
-function entrar() {
+function entrar() { // Realizando a validação do login
   let usuario = document.querySelector('#usuario')
   let userLabel = document.querySelector('#userLabel')
 

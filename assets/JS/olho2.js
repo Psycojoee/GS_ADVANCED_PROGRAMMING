@@ -1,7 +1,6 @@
 let btn = document.querySelector('#verSenha')
 let btnConfirm = document.querySelector('#verConfirmSenha')
 
-
 let nome = document.querySelector('#nome')
 let labelNome = document.querySelector('#labelNome')
 let validNome = false
